@@ -14,7 +14,7 @@ sudo a2enmod security2
 apachectl -M | grep security
 ```
 
-## edit /etc/modsecurity/modsecurity.conf
+## edit /etc/apache2/apache2.conf
 ```
 <IfModule security2_module>
     SecRuleEngine on
